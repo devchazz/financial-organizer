@@ -1,3 +1,9 @@
+/*
+    About this code:
+    This app was my first project, works correctly but was not written in the most efficient way, sorry about that.
+    -> Language: Portuguese - BR
+*/
+
 //Checar se o saldo final é positivo ou negativo e mudar a cor:
 const checarCorSaldo = () => {
     //Pegando resultado final:
