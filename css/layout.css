@@ -62,133 +62,7 @@ main h2 {
   font-size: 1.7em;
 }
 
-/* Caixa resultado: */
-#boxResultado {
-  background-color: #111;
-  max-width: 200px;
-  margin: auto;
-  margin-top: 20px;
-  padding: 15px;
-  border: 3px solid rgb(255, 219, 166);
-  border-radius: 20px;
-  overflow: hidden;
-}
-#resultado {
-  font-size: 1.5em;
-  text-align: center;
-  font-weight: 300;
-}
-
-/*Caixas ganhos/despesas:*/
-#box-ganhos-perdas {
-  display: flex;
-  min-width: 100%;
-}
-#ganhos {
-  border: 3px solid #58d67c;
-  background-color: #111;
-  width: 48%;
-  margin: 18px 1%;
-  min-height: 370px;
-  border-radius: 20px;
-}
-#perdas {
-  border: 3px solid #e5383b;
-  background-color: #111;
-  margin: 18px 1%;
-  width: 48%;
-  min-height: 370px;
-  border-radius: 20px;
-}
-
-/*Itens:*/
-.itemPequeno {
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 18px;
-}
-
-/*Titulos caixas ganhos perdas:*/
-.titulo-ganhos {
-  color: white;
-  font-size: 1.3em;
-  text-align: center;
-  padding: 10px 0 10px 0;
-  border-bottom: #58d67c 3px solid;
-  border-radius: 10px;
-}
-
-.titulo-perdas {
-  color: white;
-  font-size: 1.3em;
-  text-align: center;
-  padding: 10px 0 10px 0;
-  border-bottom: #e5383b 3px solid;
-  border-radius: 10px;
-}
-
-/*INPUTS:*/
-/*Texto e valor:*/
-.inputTexto {
-  color: white;
-  padding: 5px;
-  margin: 0 8px;
-  border: none;
-  border-radius: 20px;
-  border: 3px solid white;
-  font-size: 1em;
-  text-align: center;
-  background-color: #111;
-  max-width: 38%;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.inputTexto:focus,
-.inputTexto:active {
-  outline: none;
-}
-
-/*Botao:*/
-.adicionarItem {
-  border: none;
-  padding: 3px 13px;
-  border-radius: 100%;
-  font-size: 2em;
-  background-color: #111;
-  color: white;
-}
-.adicionarItem:hover {
-  padding: 0 10px;
-}
-.adicionarItem:focus,
-.adicionarItem:active {
-  outline: none;
-}
-
-.botaoApagar {
-  font-size: 1em;
-  border: none;
-  padding: 3px 7px;
-  border-radius: 100%;
-  background-color: #111;
-  color: white;
-}
-.botaoApagar:hover {
-  padding: 1px 5px;
-}
-.botaoApagar:focus,
-.botaoApagar:active {
-  outline: none;
-}
-
-/*Bordas caracteristicas:*/
+/*Bordas caracteristicas (js):*/
 .verde {
   border-bottom: #58d67c 3px solid;
 }
@@ -198,7 +72,13 @@ input::-webkit-inner-spin-button {
 .verdeHover:hover {
   border: solid 3px #58d67c;
 }
+.verdeFocus:focus {
+  border: 3px solid #58d67c;
+}
 .vermelhoHover:hover {
+  border: solid 3px #e5383b;
+}
+.vermelhoFocus:focus {
   border: solid 3px #e5383b;
 }
 .verdeHoverPequeno:hover {
@@ -220,29 +100,6 @@ footer {
 
 .texto-pequeno {
   font-size: 0.8em;
-}
-
-@media screen and (max-width: 700px) {
-  #box-ganhos-perdas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 100%;
-  }
-  #ganhos {
-    border: 3px solid #58d67c;
-    width: 96%;
-    margin: 18px auto;
-    min-height: 370px;
-    border-radius: 20px;
-  }
-  #perdas {
-    border: 3px solid #e5383b;
-    margin: 18px auto;
-    width: 96%;
-    min-height: 370px;
-    border-radius: 20px;
-  }
 }
 
 /* SCROLL PERSONALIZADO: */
