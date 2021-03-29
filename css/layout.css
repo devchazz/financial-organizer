@@ -98,6 +98,15 @@ footer {
   border-top: solid 3px #58d67c;
 }
 
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  header nav {
+    margin: 17px 0 13px 0;
+  }
+}
+
 /* SCROLL PERSONALIZADO: */
 ::-webkit-scrollbar {
   width: 8px;
