@@ -1,9 +1,7 @@
 # financial-organizer
 
+App created using HTML, CSS and pure JS, use simple manipulations in the DOM to calculate the user's financial balance. 
 
-Link: https://devchazz.github.io/financial-organizer/
-Hosted on: GitHub pages
+Link: https://devchazz.github.io/financial-organizer/  
 
-Developed by devChazz, using HTML, CSS and JS.
-
-MIT License
+Developed by devChazz
