@@ -1,4 +1,4 @@
-# financial-organizer
+# Financial Organizer
 
 App created using HTML, CSS and pure JS, use simple manipulations in the DOM to calculate the user's financial balance. 
 
