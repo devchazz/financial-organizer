@@ -23,6 +23,12 @@ a {
   color: white;
 }
 
+p,
+a,
+input{
+  font-size: 1.2em;
+}
+
 /*Cabecalio:*/
 header {
   margin-bottom: 20px;
@@ -42,7 +48,6 @@ header h1 a:hover {
 }
 header nav a {
   color: #252525;
-  font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
   background-color: #58d67c;
@@ -63,11 +68,17 @@ main h2 {
 }
 
 /*Bordas caracteristicas (js):*/
+/*Borda em baixo:*/
 .verde {
   border-bottom: #58d67c 3px solid;
 }
 .vermelho {
   border-bottom: 3px solid #e5383b;
+}
+/*Borda no hover 3px:*/
+.verdeHover,
+.vermelhoHover{
+  border: solid 3px rgba(17, 17, 17, 0);
 }
 .verdeHover:hover {
   border: solid 3px #58d67c;
@@ -80,6 +91,12 @@ main h2 {
 }
 .vermelhoFocus:focus {
   border: solid 3px #e5383b;
+}
+
+/*Borda no hover 2px:*/
+.verdeHoverPequeno,
+.vermelhoHoverPequeno{
+  border: solid 2px rgba(17, 17, 17, 0);
 }
 .verdeHoverPequeno:hover {
   border: solid 2px #58d67c;
